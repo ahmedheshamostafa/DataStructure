@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1565038531 source:e:\fcih\fcih as teacher\datastructure\section code\linkedbinsearchtree\tree.c
+	"tree.h"
+	<stdlib.h>
+
+1565036954 e:\fcih\fcih as teacher\datastructure\section code\linkedbinsearchtree\tree.h
+
+1565037026 source:e:\fcih\fcih as teacher\datastructure\section code\linkedbinsearchtree\main.c
+	<stdio.h>
+	<stdlib.h>
+	"tree.h"
+

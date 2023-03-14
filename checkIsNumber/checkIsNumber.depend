@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1564348722 source:e:\fcih\fcih as teacher\datastructure\section code\checkisnumber\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

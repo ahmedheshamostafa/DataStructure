@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1564411502 source:e:\fcih\fcih as teacher\datastructure\section code\priorityscheduling\main.c
+	<stdio.h>
+	<stdlib.h>
+	"queue.h"
+
+1564411375 e:\fcih\fcih as teacher\datastructure\section code\priorityscheduling\queue.h
+
+1564411542 source:e:\fcih\fcih as teacher\datastructure\section code\priorityscheduling\queue.c
+	"queue.h"
+	<stdlib.h>
+

@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1564353380 source:e:\fcih\fcih as teacher\datastructure\section code\roundrobinscheduling\queue.c
+	"queue.h"
+
+1564358198 e:\fcih\fcih as teacher\datastructure\section code\roundrobinscheduling\queue.h
+
+1564411672 source:e:\fcih\fcih as teacher\datastructure\section code\roundrobinscheduling\main.c
+	<stdio.h>
+	<stdlib.h>
+	"queue.h"
+

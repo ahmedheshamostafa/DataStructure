@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1564787634 source:e:\fcih\fcih as teacher\datastructure\section code\drmarwasheets\sheet2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"stack.h"
+
+1563146308 e:\fcih\fcih as teacher\datastructure\section code\drmarwasheets\sheet2\stack.h
+
+1563151949 source:e:\fcih\fcih as teacher\datastructure\section code\drmarwasheets\sheet2\stack.c
+	"stack.h"
+	<stdio.h>
+

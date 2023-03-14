@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1564332685 source:e:\fcih\fcih as teacher\datastructure\section code\FCFSScheduling\queue.c
+	"queue.h"
+
+1564332909 e:\fcih\fcih as teacher\datastructure\section code\FCFSScheduling\queue.h
+
+1564332971 source:e:\fcih\fcih as teacher\datastructure\section code\FCFSScheduling\main.c
+	<stdio.h>
+	<stdlib.h>
+	"queue.h"
+
+1564405824 source:e:\fcih\fcih as teacher\datastructure\section code\fcfsscheduling\main.c
+	<stdio.h>
+	<stdlib.h>
+	"queue.h"
+
+1564344312 e:\fcih\fcih as teacher\datastructure\section code\fcfsscheduling\queue.h
+
+1564344307 source:e:\fcih\fcih as teacher\datastructure\section code\fcfsscheduling\queue.c
+	"queue.h"
+

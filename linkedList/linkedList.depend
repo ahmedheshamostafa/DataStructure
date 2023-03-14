@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1564267598 source:e:\fcih\fcih as teacher\datastructure\section code\linkedlist\list.c
+	"list.h"
+	<stdlib.h>
+
+1564267485 e:\fcih\fcih as teacher\datastructure\section code\linkedlist\list.h
+
+1564267620 source:e:\fcih\fcih as teacher\datastructure\section code\linkedlist\main.c
+	<stdio.h>
+	<stdlib.h>
+	"list.h"
+

@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1564788017 source:e:\fcih\fcih as teacher\datastructure\section code\shortestjobfirstschedulingnonprem\main.c
+	<stdio.h>
+	<stdlib.h>
+	"queue.h"
+
+1564411356 e:\fcih\fcih as teacher\datastructure\section code\shortestjobfirstschedulingnonprem\queue.h
+
+1564411358 source:e:\fcih\fcih as teacher\datastructure\section code\shortestjobfirstschedulingnonprem\queue.c
+	"queue.h"
+	<stdlib.h>
+

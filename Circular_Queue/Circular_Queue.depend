@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1563843153 source:e:\fcih\fcih as teacher\datastructure\section code\circular_queue\main.c
+	<stdio.h>
+	<stdlib.h>
+	"cqueue.h"
+
+1563842683 e:\fcih\fcih as teacher\datastructure\section code\circular_queue\cqueue.h
+
+1563843722 source:e:\fcih\fcih as teacher\datastructure\section code\circular_queue\cqueue.c
+	"cqueue.h"
+
