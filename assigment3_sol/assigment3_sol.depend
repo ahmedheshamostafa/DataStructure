@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1564434228 source:e:\fcih\fcih as teacher\datastructure\section code\assigment3_sol\cqueue.c
+	"cqueue.h"
+
+1563918384 e:\fcih\fcih as teacher\datastructure\section code\assigment3_sol\cqueue.h
+
+1563920216 source:e:\fcih\fcih as teacher\datastructure\section code\assigment3_sol\main.c
+	<stdio.h>
+	<stdlib.h>
+	"cqueue.h"
+

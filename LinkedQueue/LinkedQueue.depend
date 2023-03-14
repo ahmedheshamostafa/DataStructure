@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1564401304 source:e:\fcih\fcih as teacher\datastructure\section code\linkedqueue\main.c
+	<stdio.h>
+	<stdlib.h>
+	"queue.h"
+
+1564401755 e:\fcih\fcih as teacher\datastructure\section code\linkedqueue\queue.h
+

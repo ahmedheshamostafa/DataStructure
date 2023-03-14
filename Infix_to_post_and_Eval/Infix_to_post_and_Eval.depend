@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1563578364 source:e:\fcih\fcih as teacher\datastructure\section code\infix_to_post_and_eval\main.c
+	<stdio.h>
+	<stdlib.h>
+	"stack.h"
+	<string.h>
+
+1564666587 source:e:\fcih\fcih as teacher\datastructure\section code\infix_to_post_and_eval\stack.c
+	"stack.h"
+	"stdlib.h"
+	<string.h>
+	<math.h>
+
+1563214918 e:\fcih\fcih as teacher\datastructure\section code\infix_to_post_and_eval\stack.h
+

@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1562620300 source:e:\fcih\fcih as teacher\datastructure\section code\stack_array\main.c
+	<stdio.h>
+	<stdlib.h>
+	"stack.h"
+
+1562620083 source:e:\fcih\fcih as teacher\datastructure\section code\stack_array\stack.c
+	"stack.h"
+	"stdlib.h"
+
+1562619648 e:\fcih\fcih as teacher\datastructure\section code\stack_array\stack.h
+
