@@ -19,7 +19,6 @@ int main()
  while(i<4){
   scanf("%d %d",&e.key,&e.val);
   insertNode(e,&l);
-
  i++;
  }
  printf("\n Print List as Queue \n");
@@ -31,9 +30,18 @@ int main()
  deleteNode(&e,&l);
   printf("\n Print List after deleteing an item \n");
  TraverseAsQueue(&l,&display);
-   printf("\n Print List after deleteing an item  as stack\n");
- TraverseAsStack(&l,&display);
+   printf("\n Print List after deleteing an item as stack \n");
 
+ TraverseAsStack(&l,&display);
+ insertNodeAtPos(1,e,&l);
+   printf("\n Print List after inserting an item \n");
+ TraverseAsQueue(&l,&display);
+  deleteNodeAtPos(3,&e,&l);
+  printf("\n Print List after deleteing an item \n");
+ TraverseAsQueue(&l,&display);
+    printf("\n Print List after deleteing an item as stack \n");
+
+  TraverseAsStack(&l,&display);
 
      return 0;
 }
