@@ -9,13 +9,14 @@ void create(dlist*list){
 }
 void destroy(dlist*list){
 Node*tmp;
-while(list->head){
+while(list->size){
     tmp=list->head->next;
     free(list->head);
     list->head=tmp;
+    list->size--;
+
 
 }
-list->size=0;
 }
 void insertNode(info e,dlist*list){
 
@@ -26,91 +27,51 @@ n->prev=NULL;
 if(!list->head){
     list->head=n;
     list->tail=n;
+    n->next=list->head;
+    n->prev=list->tail;
 }
 else{
-    n->next=list->tail->next;
+    n->next=list->head;
     n->prev=list->tail;
     list->tail->next=n;
     list->tail=n;
-
 }
 list->size++;
-
-
 }
 
-//0<=pos<=size
-void insertNodeAtPos(int pos,info e,dlist*list){
-
-    Node *n=(Node*)malloc(sizeof(Node));
-    Node*curr;
-    int i=0;
-n->data=e;
-n->next=NULL;
-n->prev=NULL;
-if(pos==0){
-    list->head=n;
-    list->tail=n;
-}
-else{
-    for(curr=list->head;i<pos-1;i++){
-        curr=curr->next;
-    }
-    n->next=curr->next;
-    n->prev=curr;
-    curr->next=n;
-
-}
-list->size++;
-
-}
 
 
 void deleteNode(info* e,dlist*list){
-Node*n=list->head->next;
 if(!list->head)printf("\n List is Empty");
 else{
+    Node*n=list->head->next;
     *e=list->head->data;
     free(list->head);
     list->head=n;
+    n->prev=list->tail;
     list->size--;
 }
 }
 
 
-void deleteNodeAtPos(int pos,info* e,dlist*list){
-    int i=0;
-    Node* tmp;
-    Node* curr=list->head;
-Node*n=list->head->next;
-if(!list->head)printf("\n List is Empty");
-else{
-        for(curr=list->head;i<pos-1;i++){
-        curr=curr->next;
-    }
-
-    *e=curr->next->data;
-    tmp=curr->next->next;
-    curr->next->prev=curr;
-    free(curr->next);
-    curr->next=tmp;
-
-    list->size--;
-}
-}
 void TraverseAsStack(dlist* list,void (*visit)(info e)){
     Node*tmp=list->tail;
-while(tmp){
+        int size=list->size;
+
+while(size){
         (*visit)(tmp->data);
         tmp=tmp->prev;
+        size--;
 
 }
 }
 void TraverseAsQueue(dlist* list,void (*visit)(info e)){
     Node*tmp=list->head;
-while(tmp){
+    int size=list->size;
+while(size){
         (*visit)(tmp->data);
         tmp=tmp->next;
+        size--;
 
 }
 }
