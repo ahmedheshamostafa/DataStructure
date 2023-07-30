@@ -42,9 +42,9 @@ list->size++;
 
 
 void deleteNode(info* e,dlist*list){
-Node*n=list->head->next;
 if(!list->head)printf("\n List is Empty");
 else{
+    Node*n=list->head->next;
     *e=list->head->data;
     free(list->head);
     list->head=n;
