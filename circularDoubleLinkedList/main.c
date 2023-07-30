@@ -31,6 +31,9 @@ int main()
  deleteNode(&e,&l);
   printf("\n Print List after deleteing an item \n");
  TraverseAsQueue(&l,&display);
+   printf("\n Print List after deleteing an item  as stack\n");
+ TraverseAsStack(&l,&display);
+
 
      return 0;
 }
